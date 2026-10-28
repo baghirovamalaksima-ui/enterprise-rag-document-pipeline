@@ -1,0 +1,24 @@
+..............................                                           [100%]
+============================== warnings summary ===============================
+..\..\work\.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\User\Documents\Codex\2026-10-28\referenced-chatgpt-conversation-this-is-an-2\work\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.14-final-0 _______________
+
+Name               Stmts   Miss  Cover   Missing
+------------------------------------------------
+app\__init__.py        0      0   100%
+app\main.py          101      3    97%   75, 85, 115
+app\pipeline.py       31      0   100%
+app\provider.py       33      0   100%
+app\retrieval.py      41     14    66%   25-26, 32-34, 45-53
+app\runtime.py        75      6    92%   37, 39, 55-56, 72, 85
+app\search.py         47      2    96%   29, 56
+app\store.py         118      1    99%   172
+------------------------------------------------
+TOTAL                446     26    94%
+Coverage JSON written to file artifacts/coverage.json
+30 passed, 1 warning in 4.34s

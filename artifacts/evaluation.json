@@ -1,0 +1,2137 @@
+{
+  "metadata": {
+    "python": "3.12.14",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "encoder": "blake2-word-hash-v1-384",
+    "input_and_code_sha256": "cb13601b2a233d526f967a8a1df0c0806e4a311922d49a201c0486c2a6eade02",
+    "dataset": "Generated synthetic one-chunk policies with unique exact-match topic tokens. Development/load smoke test, not a held-out semantic benchmark."
+  },
+  "summary": {
+    "documents": 1000,
+    "ingestion_seconds": 1.1153458000626415,
+    "documents_per_second": 896.5829251733737,
+    "cold_index_build_seconds": 0.13412529998458922,
+    "retrieval": {
+      "lexical": {
+        "queries": 50,
+        "recall@5": 1.0,
+        "mrr@5": 1.0,
+        "p95_warm_latency_ms": 11.152300052344799
+      },
+      "vector": {
+        "queries": 50,
+        "recall@5": 0.36,
+        "mrr@5": 0.12166666666666666,
+        "p95_warm_latency_ms": 6.043699919246137
+      },
+      "hybrid": {
+        "queries": 50,
+        "recall@5": 1.0,
+        "mrr@5": 0.88,
+        "p95_warm_latency_ms": 11.365000042133033
+      }
+    }
+  },
+  "rows": [
+    {
+      "mode": "lexical",
+      "query_id": "q-0",
+      "target": "doc-0",
+      "rank": 1,
+      "retrieved": [
+        "doc-0",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.578400058671832
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-20",
+      "target": "doc-20",
+      "rank": 1,
+      "retrieved": [
+        "doc-20",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.83920001797378
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-40",
+      "target": "doc-40",
+      "rank": 1,
+      "retrieved": [
+        "doc-40",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.493299992755055
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-60",
+      "target": "doc-60",
+      "rank": 1,
+      "retrieved": [
+        "doc-60",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.384700049646199
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-80",
+      "target": "doc-80",
+      "rank": 1,
+      "retrieved": [
+        "doc-80",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.480400010943413
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-100",
+      "target": "doc-100",
+      "rank": 1,
+      "retrieved": [
+        "doc-100",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.516100002452731
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-120",
+      "target": "doc-120",
+      "rank": 1,
+      "retrieved": [
+        "doc-120",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.344200090505183
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-140",
+      "target": "doc-140",
+      "rank": 1,
+      "retrieved": [
+        "doc-140",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.350600091740489
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-160",
+      "target": "doc-160",
+      "rank": 1,
+      "retrieved": [
+        "doc-160",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.524100063368678
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-180",
+      "target": "doc-180",
+      "rank": 1,
+      "retrieved": [
+        "doc-180",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.402800023555756
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-200",
+      "target": "doc-200",
+      "rank": 1,
+      "retrieved": [
+        "doc-200",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.913100067526102
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-220",
+      "target": "doc-220",
+      "rank": 1,
+      "retrieved": [
+        "doc-220",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.362299947999418
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-240",
+      "target": "doc-240",
+      "rank": 1,
+      "retrieved": [
+        "doc-240",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.498999988660216
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-260",
+      "target": "doc-260",
+      "rank": 1,
+      "retrieved": [
+        "doc-260",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.7975999340415
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-280",
+      "target": "doc-280",
+      "rank": 1,
+      "retrieved": [
+        "doc-280",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.949999999254942
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-300",
+      "target": "doc-300",
+      "rank": 1,
+      "retrieved": [
+        "doc-300",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.3868000181391835
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-320",
+      "target": "doc-320",
+      "rank": 1,
+      "retrieved": [
+        "doc-320",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.847499964758754
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-340",
+      "target": "doc-340",
+      "rank": 1,
+      "retrieved": [
+        "doc-340",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.182100020349026
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-360",
+      "target": "doc-360",
+      "rank": 1,
+      "retrieved": [
+        "doc-360",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.536999928764999
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-380",
+      "target": "doc-380",
+      "rank": 1,
+      "retrieved": [
+        "doc-380",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.90289998985827
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-400",
+      "target": "doc-400",
+      "rank": 1,
+      "retrieved": [
+        "doc-400",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.218800066970289
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-420",
+      "target": "doc-420",
+      "rank": 1,
+      "retrieved": [
+        "doc-420",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.25110001116991
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-440",
+      "target": "doc-440",
+      "rank": 1,
+      "retrieved": [
+        "doc-440",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.918600040487945
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-460",
+      "target": "doc-460",
+      "rank": 1,
+      "retrieved": [
+        "doc-460",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.523400105535984
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-480",
+      "target": "doc-480",
+      "rank": 1,
+      "retrieved": [
+        "doc-480",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.092600084841251
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-500",
+      "target": "doc-500",
+      "rank": 1,
+      "retrieved": [
+        "doc-500",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.054600097239017
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-520",
+      "target": "doc-520",
+      "rank": 1,
+      "retrieved": [
+        "doc-520",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.438100038096309
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-540",
+      "target": "doc-540",
+      "rank": 1,
+      "retrieved": [
+        "doc-540",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.901899982243776
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-560",
+      "target": "doc-560",
+      "rank": 1,
+      "retrieved": [
+        "doc-560",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.221499971114099
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-580",
+      "target": "doc-580",
+      "rank": 1,
+      "retrieved": [
+        "doc-580",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.267599925398827
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-600",
+      "target": "doc-600",
+      "rank": 1,
+      "retrieved": [
+        "doc-600",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.472400018945336
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-620",
+      "target": "doc-620",
+      "rank": 1,
+      "retrieved": [
+        "doc-620",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.40520004183054
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-640",
+      "target": "doc-640",
+      "rank": 1,
+      "retrieved": [
+        "doc-640",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 10.072400094941258
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-660",
+      "target": "doc-660",
+      "rank": 1,
+      "retrieved": [
+        "doc-660",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 14.101100037805736
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-680",
+      "target": "doc-680",
+      "rank": 1,
+      "retrieved": [
+        "doc-680",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.035500115714967
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-700",
+      "target": "doc-700",
+      "rank": 1,
+      "retrieved": [
+        "doc-700",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 12.232700013555586
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-720",
+      "target": "doc-720",
+      "rank": 1,
+      "retrieved": [
+        "doc-720",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 11.152300052344799
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-740",
+      "target": "doc-740",
+      "rank": 1,
+      "retrieved": [
+        "doc-740",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.621800061315298
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-760",
+      "target": "doc-760",
+      "rank": 1,
+      "retrieved": [
+        "doc-760",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 9.752599988132715
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-780",
+      "target": "doc-780",
+      "rank": 1,
+      "retrieved": [
+        "doc-780",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 10.199499898590147
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-800",
+      "target": "doc-800",
+      "rank": 1,
+      "retrieved": [
+        "doc-800",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 12.19639996998012
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-820",
+      "target": "doc-820",
+      "rank": 1,
+      "retrieved": [
+        "doc-820",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.09839996509254
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-840",
+      "target": "doc-840",
+      "rank": 1,
+      "retrieved": [
+        "doc-840",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.56810000166297
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-860",
+      "target": "doc-860",
+      "rank": 1,
+      "retrieved": [
+        "doc-860",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.929199957288802
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-880",
+      "target": "doc-880",
+      "rank": 1,
+      "retrieved": [
+        "doc-880",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.568300003185868
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-900",
+      "target": "doc-900",
+      "rank": 1,
+      "retrieved": [
+        "doc-900",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.610099972225726
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-920",
+      "target": "doc-920",
+      "rank": 1,
+      "retrieved": [
+        "doc-920",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.121700026094913
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-940",
+      "target": "doc-940",
+      "rank": 1,
+      "retrieved": [
+        "doc-940",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.330500055104494
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-960",
+      "target": "doc-960",
+      "rank": 1,
+      "retrieved": [
+        "doc-960",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 8.269899990409613
+    },
+    {
+      "mode": "lexical",
+      "query_id": "q-980",
+      "target": "doc-980",
+      "rank": 1,
+      "retrieved": [
+        "doc-980",
+        "doc-391",
+        "doc-763",
+        "doc-198",
+        "doc-662"
+      ],
+      "latency_ms": 7.351999985985458
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-0",
+      "target": "doc-0",
+      "rank": 2,
+      "retrieved": [
+        "doc-888",
+        "doc-0",
+        "doc-266",
+        "doc-181",
+        "doc-642"
+      ],
+      "latency_ms": 4.995300085283816
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-20",
+      "target": "doc-20",
+      "rank": null,
+      "retrieved": [
+        "doc-802",
+        "doc-159",
+        "doc-888",
+        "doc-917",
+        "doc-941"
+      ],
+      "latency_ms": 4.825399955734611
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-40",
+      "target": "doc-40",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-641",
+        "doc-510",
+        "doc-358",
+        "doc-309"
+      ],
+      "latency_ms": 4.1871999856084585
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-60",
+      "target": "doc-60",
+      "rank": null,
+      "retrieved": [
+        "doc-169",
+        "doc-888",
+        "doc-530",
+        "doc-138",
+        "doc-214"
+      ],
+      "latency_ms": 3.829499939456582
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-80",
+      "target": "doc-80",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-957",
+        "doc-213",
+        "doc-441",
+        "doc-997"
+      ],
+      "latency_ms": 5.554000032134354
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-100",
+      "target": "doc-100",
+      "rank": 4,
+      "retrieved": [
+        "doc-888",
+        "doc-157",
+        "doc-618",
+        "doc-100",
+        "doc-895"
+      ],
+      "latency_ms": 4.459299962036312
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-120",
+      "target": "doc-120",
+      "rank": 4,
+      "retrieved": [
+        "doc-888",
+        "doc-49",
+        "doc-312",
+        "doc-120",
+        "doc-893"
+      ],
+      "latency_ms": 4.2616999708116055
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-140",
+      "target": "doc-140",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-218",
+        "doc-825",
+        "doc-457",
+        "doc-645"
+      ],
+      "latency_ms": 5.448600044474006
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-160",
+      "target": "doc-160",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-906",
+        "doc-941",
+        "doc-184",
+        "doc-642"
+      ],
+      "latency_ms": 4.31750004645437
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-180",
+      "target": "doc-180",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-396",
+        "doc-142",
+        "doc-42",
+        "doc-379"
+      ],
+      "latency_ms": 3.9782000239938498
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-200",
+      "target": "doc-200",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-875",
+        "doc-782",
+        "doc-19",
+        "doc-294"
+      ],
+      "latency_ms": 3.7481000181287527
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-220",
+      "target": "doc-220",
+      "rank": 5,
+      "retrieved": [
+        "doc-66",
+        "doc-888",
+        "doc-4",
+        "doc-310",
+        "doc-220"
+      ],
+      "latency_ms": 4.907499998807907
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-240",
+      "target": "doc-240",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-958",
+        "doc-358",
+        "doc-97",
+        "doc-336"
+      ],
+      "latency_ms": 3.8997000083327293
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-260",
+      "target": "doc-260",
+      "rank": null,
+      "retrieved": [
+        "doc-694",
+        "doc-888",
+        "doc-316",
+        "doc-929",
+        "doc-190"
+      ],
+      "latency_ms": 3.7230999441817403
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-280",
+      "target": "doc-280",
+      "rank": null,
+      "retrieved": [
+        "doc-72",
+        "doc-888",
+        "doc-604",
+        "doc-45",
+        "doc-727"
+      ],
+      "latency_ms": 3.6428000312298536
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-300",
+      "target": "doc-300",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-144",
+        "doc-919",
+        "doc-686",
+        "doc-33"
+      ],
+      "latency_ms": 4.500199924223125
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-320",
+      "target": "doc-320",
+      "rank": null,
+      "retrieved": [
+        "doc-946",
+        "doc-888",
+        "doc-662",
+        "doc-184",
+        "doc-479"
+      ],
+      "latency_ms": 4.3484000489115715
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-340",
+      "target": "doc-340",
+      "rank": 2,
+      "retrieved": [
+        "doc-888",
+        "doc-340",
+        "doc-740",
+        "doc-175",
+        "doc-275"
+      ],
+      "latency_ms": 3.726299968548119
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-360",
+      "target": "doc-360",
+      "rank": null,
+      "retrieved": [
+        "doc-198",
+        "doc-608",
+        "doc-888",
+        "doc-782",
+        "doc-33"
+      ],
+      "latency_ms": 3.8023999659344554
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-380",
+      "target": "doc-380",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-112",
+        "doc-127",
+        "doc-666",
+        "doc-415"
+      ],
+      "latency_ms": 4.326599999330938
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-400",
+      "target": "doc-400",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-833",
+        "doc-959",
+        "doc-127",
+        "doc-760"
+      ],
+      "latency_ms": 4.0849000215530396
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-420",
+      "target": "doc-420",
+      "rank": 4,
+      "retrieved": [
+        "doc-888",
+        "doc-878",
+        "doc-765",
+        "doc-420",
+        "doc-865"
+      ],
+      "latency_ms": 4.25830006133765
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-440",
+      "target": "doc-440",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-619",
+        "doc-967",
+        "doc-309",
+        "doc-289"
+      ],
+      "latency_ms": 4.482900025323033
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-460",
+      "target": "doc-460",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-953",
+        "doc-42",
+        "doc-154",
+        "doc-834"
+      ],
+      "latency_ms": 5.52319991402328
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-480",
+      "target": "doc-480",
+      "rank": 5,
+      "retrieved": [
+        "doc-888",
+        "doc-682",
+        "doc-34",
+        "doc-286",
+        "doc-480"
+      ],
+      "latency_ms": 4.026600043289363
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-500",
+      "target": "doc-500",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-770",
+        "doc-834",
+        "doc-934",
+        "doc-986"
+      ],
+      "latency_ms": 3.6870999028906226
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-520",
+      "target": "doc-520",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-74",
+        "doc-112",
+        "doc-822",
+        "doc-416"
+      ],
+      "latency_ms": 4.275200073607266
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-540",
+      "target": "doc-540",
+      "rank": 4,
+      "retrieved": [
+        "doc-888",
+        "doc-318",
+        "doc-195",
+        "doc-540",
+        "doc-322"
+      ],
+      "latency_ms": 5.703700007870793
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-560",
+      "target": "doc-560",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-824",
+        "doc-212",
+        "doc-920",
+        "doc-706"
+      ],
+      "latency_ms": 4.444199963472784
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-580",
+      "target": "doc-580",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-115",
+        "doc-322",
+        "doc-120",
+        "doc-35"
+      ],
+      "latency_ms": 4.356599994935095
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-600",
+      "target": "doc-600",
+      "rank": 5,
+      "retrieved": [
+        "doc-888",
+        "doc-143",
+        "doc-87",
+        "doc-95",
+        "doc-600"
+      ],
+      "latency_ms": 5.140900029800832
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-620",
+      "target": "doc-620",
+      "rank": 2,
+      "retrieved": [
+        "doc-888",
+        "doc-620",
+        "doc-59",
+        "doc-934",
+        "doc-883"
+      ],
+      "latency_ms": 6.043699919246137
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-640",
+      "target": "doc-640",
+      "rank": 3,
+      "retrieved": [
+        "doc-888",
+        "doc-5",
+        "doc-640",
+        "doc-195",
+        "doc-176"
+      ],
+      "latency_ms": 5.58720005210489
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-660",
+      "target": "doc-660",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-805",
+        "doc-940",
+        "doc-443",
+        "doc-905"
+      ],
+      "latency_ms": 6.3916000071913
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-680",
+      "target": "doc-680",
+      "rank": 5,
+      "retrieved": [
+        "doc-103",
+        "doc-888",
+        "doc-396",
+        "doc-510",
+        "doc-680"
+      ],
+      "latency_ms": 5.543100065551698
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-700",
+      "target": "doc-700",
+      "rank": 3,
+      "retrieved": [
+        "doc-103",
+        "doc-888",
+        "doc-700",
+        "doc-493",
+        "doc-368"
+      ],
+      "latency_ms": 5.2825999446213245
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-720",
+      "target": "doc-720",
+      "rank": 1,
+      "retrieved": [
+        "doc-720",
+        "doc-888",
+        "doc-981",
+        "doc-971",
+        "doc-750"
+      ],
+      "latency_ms": 6.260499940253794
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-740",
+      "target": "doc-740",
+      "rank": 5,
+      "retrieved": [
+        "doc-888",
+        "doc-204",
+        "doc-87",
+        "doc-384",
+        "doc-740"
+      ],
+      "latency_ms": 6.03170006070286
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-760",
+      "target": "doc-760",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-583",
+        "doc-87",
+        "doc-970",
+        "doc-427"
+      ],
+      "latency_ms": 5.333599983714521
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-780",
+      "target": "doc-780",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-361",
+        "doc-261",
+        "doc-92",
+        "doc-146"
+      ],
+      "latency_ms": 5.720099899917841
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-800",
+      "target": "doc-800",
+      "rank": null,
+      "retrieved": [
+        "doc-269",
+        "doc-888",
+        "doc-8",
+        "doc-58",
+        "doc-732"
+      ],
+      "latency_ms": 4.1456000180915
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-820",
+      "target": "doc-820",
+      "rank": 4,
+      "retrieved": [
+        "doc-888",
+        "doc-812",
+        "doc-706",
+        "doc-820",
+        "doc-224"
+      ],
+      "latency_ms": 3.836299991235137
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-840",
+      "target": "doc-840",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-234",
+        "doc-914",
+        "doc-811",
+        "doc-814"
+      ],
+      "latency_ms": 4.418500000610948
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-860",
+      "target": "doc-860",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-198",
+        "doc-694",
+        "doc-203",
+        "doc-907"
+      ],
+      "latency_ms": 5.2038999274373055
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-880",
+      "target": "doc-880",
+      "rank": null,
+      "retrieved": [
+        "doc-925",
+        "doc-888",
+        "doc-417",
+        "doc-821",
+        "doc-247"
+      ],
+      "latency_ms": 4.278499982319772
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-900",
+      "target": "doc-900",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-234",
+        "doc-361",
+        "doc-547",
+        "doc-979"
+      ],
+      "latency_ms": 4.783299984410405
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-920",
+      "target": "doc-920",
+      "rank": 3,
+      "retrieved": [
+        "doc-888",
+        "doc-361",
+        "doc-920",
+        "doc-677",
+        "doc-87"
+      ],
+      "latency_ms": 4.924000008031726
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-940",
+      "target": "doc-940",
+      "rank": 3,
+      "retrieved": [
+        "doc-888",
+        "doc-805",
+        "doc-940",
+        "doc-443",
+        "doc-905"
+      ],
+      "latency_ms": 4.73970000166446
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-960",
+      "target": "doc-960",
+      "rank": null,
+      "retrieved": [
+        "doc-888",
+        "doc-295",
+        "doc-181",
+        "doc-985",
+        "doc-902"
+      ],
+      "latency_ms": 4.390399903059006
+    },
+    {
+      "mode": "vector",
+      "query_id": "q-980",
+      "target": "doc-980",
+      "rank": null,
+      "retrieved": [
+        "doc-946",
+        "doc-888",
+        "doc-662",
+        "doc-184",
+        "doc-479"
+      ],
+      "latency_ms": 14.541300013661385
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-0",
+      "target": "doc-0",
+      "rank": 1,
+      "retrieved": [
+        "doc-0",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-763"
+      ],
+      "latency_ms": 7.985800039023161
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-20",
+      "target": "doc-20",
+      "rank": 3,
+      "retrieved": [
+        "doc-198",
+        "doc-917",
+        "doc-20",
+        "doc-941",
+        "doc-802"
+      ],
+      "latency_ms": 9.138600085861981
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-40",
+      "target": "doc-40",
+      "rank": 1,
+      "retrieved": [
+        "doc-40",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-641"
+      ],
+      "latency_ms": 7.90430000051856
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-60",
+      "target": "doc-60",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-60",
+        "doc-238",
+        "doc-169",
+        "doc-391"
+      ],
+      "latency_ms": 8.469199994578958
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-80",
+      "target": "doc-80",
+      "rank": 3,
+      "retrieved": [
+        "doc-198",
+        "doc-957",
+        "doc-80",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.694100077264011
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-100",
+      "target": "doc-100",
+      "rank": 1,
+      "retrieved": [
+        "doc-100",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-157"
+      ],
+      "latency_ms": 8.989099995233119
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-120",
+      "target": "doc-120",
+      "rank": 1,
+      "retrieved": [
+        "doc-120",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-49"
+      ],
+      "latency_ms": 8.997000055387616
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-140",
+      "target": "doc-140",
+      "rank": 1,
+      "retrieved": [
+        "doc-140",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-218"
+      ],
+      "latency_ms": 7.965400000102818
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-160",
+      "target": "doc-160",
+      "rank": 3,
+      "retrieved": [
+        "doc-906",
+        "doc-198",
+        "doc-160",
+        "doc-941",
+        "doc-888"
+      ],
+      "latency_ms": 9.704300086013973
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-180",
+      "target": "doc-180",
+      "rank": 1,
+      "retrieved": [
+        "doc-180",
+        "doc-396",
+        "doc-198",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.665599976666272
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-200",
+      "target": "doc-200",
+      "rank": 1,
+      "retrieved": [
+        "doc-200",
+        "doc-875",
+        "doc-198",
+        "doc-782",
+        "doc-888"
+      ],
+      "latency_ms": 9.5832000952214
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-220",
+      "target": "doc-220",
+      "rank": 1,
+      "retrieved": [
+        "doc-220",
+        "doc-198",
+        "doc-66",
+        "doc-391",
+        "doc-888"
+      ],
+      "latency_ms": 7.788500050082803
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-240",
+      "target": "doc-240",
+      "rank": 1,
+      "retrieved": [
+        "doc-240",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-958"
+      ],
+      "latency_ms": 8.098199963569641
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-260",
+      "target": "doc-260",
+      "rank": 1,
+      "retrieved": [
+        "doc-260",
+        "doc-198",
+        "doc-694",
+        "doc-391",
+        "doc-888"
+      ],
+      "latency_ms": 7.574400049634278
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-280",
+      "target": "doc-280",
+      "rank": 1,
+      "retrieved": [
+        "doc-280",
+        "doc-198",
+        "doc-72",
+        "doc-391",
+        "doc-888"
+      ],
+      "latency_ms": 8.686100016348064
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-300",
+      "target": "doc-300",
+      "rank": 1,
+      "retrieved": [
+        "doc-300",
+        "doc-144",
+        "doc-198",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 7.6160000171512365
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-320",
+      "target": "doc-320",
+      "rank": 2,
+      "retrieved": [
+        "doc-662",
+        "doc-320",
+        "doc-198",
+        "doc-946",
+        "doc-391"
+      ],
+      "latency_ms": 8.848599973134696
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-340",
+      "target": "doc-340",
+      "rank": 1,
+      "retrieved": [
+        "doc-340",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-763"
+      ],
+      "latency_ms": 7.7936999732628465
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-360",
+      "target": "doc-360",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-360",
+        "doc-782",
+        "doc-391",
+        "doc-608"
+      ],
+      "latency_ms": 8.980700047686696
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-380",
+      "target": "doc-380",
+      "rank": 1,
+      "retrieved": [
+        "doc-380",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-112"
+      ],
+      "latency_ms": 7.779599982313812
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-400",
+      "target": "doc-400",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-400",
+        "doc-833",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.143099956214428
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-420",
+      "target": "doc-420",
+      "rank": 1,
+      "retrieved": [
+        "doc-420",
+        "doc-198",
+        "doc-890",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 7.701399968937039
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-440",
+      "target": "doc-440",
+      "rank": 1,
+      "retrieved": [
+        "doc-440",
+        "doc-198",
+        "doc-619",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.66010005120188
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-460",
+      "target": "doc-460",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-460",
+        "doc-888",
+        "doc-391",
+        "doc-953"
+      ],
+      "latency_ms": 7.849400048144162
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-480",
+      "target": "doc-480",
+      "rank": 1,
+      "retrieved": [
+        "doc-480",
+        "doc-198",
+        "doc-682",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 9.983700001612306
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-500",
+      "target": "doc-500",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-500",
+        "doc-888",
+        "doc-391",
+        "doc-770"
+      ],
+      "latency_ms": 7.743099937215447
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-520",
+      "target": "doc-520",
+      "rank": 1,
+      "retrieved": [
+        "doc-520",
+        "doc-198",
+        "doc-74",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.741999976336956
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-540",
+      "target": "doc-540",
+      "rank": 1,
+      "retrieved": [
+        "doc-540",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-318"
+      ],
+      "latency_ms": 7.7661999966949224
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-560",
+      "target": "doc-560",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-560",
+        "doc-824",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.84969998151064
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-580",
+      "target": "doc-580",
+      "rank": 1,
+      "retrieved": [
+        "doc-580",
+        "doc-198",
+        "doc-115",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 7.73089996073395
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-600",
+      "target": "doc-600",
+      "rank": 1,
+      "retrieved": [
+        "doc-600",
+        "doc-198",
+        "doc-890",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 9.239000035449862
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-620",
+      "target": "doc-620",
+      "rank": 1,
+      "retrieved": [
+        "doc-620",
+        "doc-198",
+        "doc-941",
+        "doc-890",
+        "doc-888"
+      ],
+      "latency_ms": 19.0934999845922
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-640",
+      "target": "doc-640",
+      "rank": 1,
+      "retrieved": [
+        "doc-640",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-5"
+      ],
+      "latency_ms": 13.443099916912615
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-660",
+      "target": "doc-660",
+      "rank": 1,
+      "retrieved": [
+        "doc-660",
+        "doc-198",
+        "doc-805",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 12.688899994827807
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-680",
+      "target": "doc-680",
+      "rank": 1,
+      "retrieved": [
+        "doc-680",
+        "doc-396",
+        "doc-198",
+        "doc-103",
+        "doc-391"
+      ],
+      "latency_ms": 10.264099924825132
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-700",
+      "target": "doc-700",
+      "rank": 1,
+      "retrieved": [
+        "doc-700",
+        "doc-198",
+        "doc-103",
+        "doc-391",
+        "doc-888"
+      ],
+      "latency_ms": 11.365000042133033
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-720",
+      "target": "doc-720",
+      "rank": 1,
+      "retrieved": [
+        "doc-720",
+        "doc-198",
+        "doc-391",
+        "doc-888",
+        "doc-763"
+      ],
+      "latency_ms": 8.675399934872985
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-740",
+      "target": "doc-740",
+      "rank": 1,
+      "retrieved": [
+        "doc-740",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-204"
+      ],
+      "latency_ms": 10.773700079880655
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-760",
+      "target": "doc-760",
+      "rank": 1,
+      "retrieved": [
+        "doc-760",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-583"
+      ],
+      "latency_ms": 8.277100045233965
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-780",
+      "target": "doc-780",
+      "rank": 1,
+      "retrieved": [
+        "doc-780",
+        "doc-198",
+        "doc-361",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 8.696799981407821
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-800",
+      "target": "doc-800",
+      "rank": 1,
+      "retrieved": [
+        "doc-800",
+        "doc-198",
+        "doc-639",
+        "doc-269",
+        "doc-391"
+      ],
+      "latency_ms": 7.611099979840219
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-820",
+      "target": "doc-820",
+      "rank": 1,
+      "retrieved": [
+        "doc-820",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-812"
+      ],
+      "latency_ms": 9.349299944005907
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-840",
+      "target": "doc-840",
+      "rank": 1,
+      "retrieved": [
+        "doc-840",
+        "doc-198",
+        "doc-234",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 7.555900025181472
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-860",
+      "target": "doc-860",
+      "rank": 2,
+      "retrieved": [
+        "doc-198",
+        "doc-860",
+        "doc-888",
+        "doc-391",
+        "doc-763"
+      ],
+      "latency_ms": 8.924199966713786
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-880",
+      "target": "doc-880",
+      "rank": 1,
+      "retrieved": [
+        "doc-880",
+        "doc-198",
+        "doc-925",
+        "doc-391",
+        "doc-888"
+      ],
+      "latency_ms": 7.6046999311074615
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-900",
+      "target": "doc-900",
+      "rank": 1,
+      "retrieved": [
+        "doc-900",
+        "doc-198",
+        "doc-234",
+        "doc-361",
+        "doc-710"
+      ],
+      "latency_ms": 9.985500015318394
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-920",
+      "target": "doc-920",
+      "rank": 1,
+      "retrieved": [
+        "doc-920",
+        "doc-198",
+        "doc-361",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 7.604100042954087
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-940",
+      "target": "doc-940",
+      "rank": 1,
+      "retrieved": [
+        "doc-940",
+        "doc-198",
+        "doc-805",
+        "doc-888",
+        "doc-391"
+      ],
+      "latency_ms": 9.863499901257455
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-960",
+      "target": "doc-960",
+      "rank": 1,
+      "retrieved": [
+        "doc-960",
+        "doc-198",
+        "doc-888",
+        "doc-391",
+        "doc-295"
+      ],
+      "latency_ms": 7.5885000405833125
+    },
+    {
+      "mode": "hybrid",
+      "query_id": "q-980",
+      "target": "doc-980",
+      "rank": 1,
+      "retrieved": [
+        "doc-980",
+        "doc-662",
+        "doc-198",
+        "doc-946",
+        "doc-391"
+      ],
+      "latency_ms": 8.644599933177233
+    }
+  ]
+}

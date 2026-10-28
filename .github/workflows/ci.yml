@@ -1,0 +1,51 @@
+name: ci
+on: [push, pull_request]
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m ruff check .
+      - run: python -m pytest --cov=app --cov-report=term-missing --cov-report=xml
+      - run: python scripts/evaluate.py --output artifacts/ci-evaluation.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-${{ matrix.os }}
+          path: artifacts/ci-evaluation.json
+  container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t portfolio-api .
+      - name: Boot container and check readiness
+        shell: bash
+        run: |
+          docker run -d --name api -p 127.0.0.1:8000:8000 -e 'TENANT_KEYS={"ci-container-key-at-least-24-chars":"ci"}' portfolio-api
+          trap 'docker logs api; docker rm -f api' EXIT
+          for i in $(seq 1 30); do
+            if curl --fail http://127.0.0.1:8000/readyz; then exit 0; fi
+            sleep 2
+          done
+          exit 1
+  dependency-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pip-audit
+      - run: python -m pip_audit -r requirements.txt

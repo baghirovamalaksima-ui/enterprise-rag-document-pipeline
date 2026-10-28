@@ -1,0 +1,8 @@
+{
+  "readiness": 200,
+  "openapi": 200,
+  "ingest_job": "completed",
+  "answer": "answered",
+  "date": "2026-10-28",
+  "transport": "actual localhost HTTP, uvicorn, temporary data; no external LLM"
+}

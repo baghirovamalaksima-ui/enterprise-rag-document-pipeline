@@ -1,0 +1,9 @@
+{
+  "documents": [
+    {
+      "id": "invoice-2026",
+      "title": "Synthetic invoice",
+      "content": "Invoice INV-2026 payment of USD 250.00 is due on 2026-11-15. Payment requires approval."
+    }
+  ]
+}

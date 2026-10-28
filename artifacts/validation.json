@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "python": "3.12.14",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "passed": 30,
+  "failures": 0,
+  "line_coverage_percent": 94.17040358744394,
+  "lint": "passed",
+  "openai_live": "not run; mocked protocol tests only",
+  "huggingface_live": "not run; optional local encoder is not validated",
+  "docker_runtime": "not run; Docker daemon unavailable",
+  "github_ci": "workflow authored; not run remotely before publication"
+}

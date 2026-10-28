@@ -8,6 +8,6 @@
   "lint": "passed",
   "openai_live": "not run; mocked protocol tests only",
   "huggingface_live": "not run; optional local encoder is not validated",
-  "docker_runtime": "not run; Docker daemon unavailable",
-  "github_ci": "workflow authored; not run remotely before publication"
+  "docker_runtime": "image build and readiness passed remotely in GitHub Actions",
+  "github_ci": "Windows, Linux, container and dependency-audit jobs passed; see remote-ci.json"
 }

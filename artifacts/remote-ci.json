@@ -1,0 +1,24 @@
+{
+  "repository": "baghirovamalaksima-ui/enterprise-rag-document-pipeline",
+  "tested_commit": "f8a6619cba247310785843edb97858b86cb1e3c2",
+  "run_url": "https://github.com/baghirovamalaksima-ui/enterprise-rag-document-pipeline/actions/runs/40673252948",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "dependency-audit",
+      "conclusion": "success"
+    },
+    {
+      "name": "test (windows-latest)",
+      "conclusion": "success"
+    },
+    {
+      "name": "test (ubuntu-latest)",
+      "conclusion": "success"
+    },
+    {
+      "name": "container",
+      "conclusion": "success"
+    }
+  ]
+}

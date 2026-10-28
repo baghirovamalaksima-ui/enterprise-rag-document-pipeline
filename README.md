@@ -144,9 +144,9 @@ docker compose up --build
 ```
 
 Compose binds only localhost, runs as a non-root user, drops Linux capabilities,
-and uses a read-only root filesystem with a dedicated data volume. Local Docker
-execution was unavailable; container validation is defined in CI and remains a
-release gate. [Executed validation](docs/VALIDATION.md) separates completed checks
+and uses a read-only root filesystem with a dedicated data volume. Container build
+and readiness checks passed in GitHub Actions, along with Windows/Linux tests
+and the dependency audit. [Executed validation](docs/VALIDATION.md) separates completed checks
 from untested integrations.
 
 ## Optional OpenAI integration

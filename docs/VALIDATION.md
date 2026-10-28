@@ -4,7 +4,7 @@
 - **30 tests passed**, no test failures.
 - Line coverage: **94.17%**. Optional local Hugging Face model execution is not covered.
 - Ruff lint: passed.
-- Docker Compose configuration parsed successfully; container build/runtime remain unverified.
+- Docker Compose configuration parsed successfully; remote container validation is recorded below.
 - Real localhost HTTP smoke: uvicorn startup, readiness, OpenAPI, durable ingestion, worker completion and quoted answer passed; see [report](../artifacts/http-smoke.json).
 - Runtime dependency audit: no known vulnerabilities reported by pip-audit at execution time.
 - Evaluation: [raw report](../artifacts/evaluation.json), including dataset/code hash and per-case results.
@@ -20,9 +20,9 @@ migration to the newer transport is a future compatibility task.
   malformed JSON and quotation-validation tests use a mocked transport.
 - No local neural embedding model was downloaded or executed. Default FAISS
   experiments use deterministic feature hashing, not learned semantic embeddings.
-- Docker daemon was unavailable. Dockerfile and Compose are supplied; container
-  build/runtime remain unverified locally. CI defines a build and readiness smoke test.
-- GitHub Actions has not been observed running for these new repositories.
+- The local Docker daemon was unavailable. Container build and readiness smoke
+  passed remotely in GitHub Actions; see the verified run above.
+- GitHub Actions: **passed** for Windows/Linux tests, container build/readiness and dependency audit. [Verified run](https://github.com/baghirovamalaksima-ui/enterprise-rag-document-pipeline/actions/runs/40673252948); tested commit is recorded in `artifacts/remote-ci.json`.
 - No clinical validation, regulated-data processing, security certification,
   held-out quality evaluation, or monthly production throughput is established.
 
